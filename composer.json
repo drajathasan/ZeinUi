@@ -1,0 +1,20 @@
+{
+    "name": "zein/ui",
+    "description": "Ui tool kit for build web app",
+    "type": "library",
+    "require": {
+        "twbs/bootstrap": "4.6.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zein\\Ui\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Drajat Hasan",
+            "email": "drajathasan20@gmail.com"
+        }
+    ]
+}
