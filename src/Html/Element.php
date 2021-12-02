@@ -33,7 +33,7 @@
         if (count($Attributes))
         {
             $HtmlAttribute = array_map(function($value, $key) {
-                return self::free($key) . '="' . self::noquote($value) . '"';
+                return self::free(trim($key)) . '="' . self::noquote(trim($value)) . '"';
             }, array_values($Attributes), array_keys($Attributes));
 
             $El .= ' ' . trim(implode(' ', $HtmlAttribute));
